@@ -1,0 +1,25 @@
+# Віртуальне середовище
+.venv/
+venv/
+ENV/
+
+# Кеш Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Автозбереження Jupyter Notebook
+.ipynb_checkpoints/
+
+# Датасет (зображення та .mat файли, щоб репозиторій не важив сотні МБ)
+data/raw/*
+data/ground_truth/*
+!data/raw/.gitkeep
+!data/ground_truth/.gitkeep
+
+# Тимчасові файли ОС та IDE
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
