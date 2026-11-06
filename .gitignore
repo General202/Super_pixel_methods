@@ -17,6 +17,7 @@ data/raw/*
 data/ground_truth/*
 !data/raw/.gitkeep
 !data/ground_truth/.gitkeep
+results/*
 
 # Тимчасові файли ОС та IDE
 .vscode/
